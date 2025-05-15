@@ -16,10 +16,10 @@
 #Usually you will be working on your working directory
 #folder_root <- dirname(rstudioapi::getSourceEditorContext()$path)
 #But you can set the folder in other path
-folder_root <- "/home/jorge/Documentos/Postdoctoral/Onedrive_UB/UB/NaturBPond/GHG/Pond_element_flux/December/Discrete_samples" # You have to make sure this is pointing to the write folder on your local machine
+folder_root <- "/home/jorge/Documentos/Postdoctoral/Onedrive_UB/UB/NaturBPond/Hidrogeologos/Muestras_Licor" # You have to make sure this is pointing to the write folder on your local machine
 
 #Data folders
-folder_raw <- paste0(folder_root,"/Rawdata") #contains unedited files downloaded from licor
+folder_raw <- paste0(folder_root,"/rawdata") #contains unedited files downloaded from licor
 
 #If you ran the Map_injections.R script, this folder have already been created, if not, run it
 folder_mapinjections<- paste0(folder_root,"/Map_injections") #Contains csvs with startstop times of injections and their corresponding labels, corrections should be made manually when needed (editting the csvs and re-saving with "corrected_" prefix)
